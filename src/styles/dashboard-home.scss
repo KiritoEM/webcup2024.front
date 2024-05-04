@@ -1,6 +1,13 @@
 .dashboard__home {
     background-color: $black02;
-    width: 100%;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+
+    .home-content {
+        position: relative;
+        left: 350px;
+        width: calc(100% - 350px);
+        padding: 35px;
+    }
 }

@@ -1,10 +1,13 @@
+import DashboardHeader from "../components/headers/DashboardHeader";
 import Dashboardlayout from "../components/layouts/Dashboardlayout";
 
 const DashboardHome = (): JSX.Element => {
   return (
     <section className="dashboard__home">
       <Dashboardlayout>
-        <h1></h1>
+        <div className="home-content">
+          <DashboardHeader />
+        </div>
       </Dashboardlayout>
     </section>
   );
