@@ -9,22 +9,30 @@
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        padding: 24px 88px;
+        padding: 28px 92px;
 
         .nav-section1 {
             ul {
                 display: flex;
-                gap: 25px;
+                gap: 10px;
                 padding-left: 0;
 
                 li {
-                    color: $white02;
-                    font-size: 16px;
-                    font-family: "GeneralSans-Medium";
+                    a {
+                        font-family: "GeneralSans-Medium";
+                        font-size: 16px;
+                        padding: 10px;
+                        display: inline-block;
+                        text-decoration: none !important;
+                        color: $white02;
+                    }
                 }
             }
         }
-
+        
+        .logo {
+            width: 157px;
+        }
 
         .nav-section2 {
             ul {
@@ -35,18 +43,30 @@
                 li {
                     color: $white02;
                     font-size: 16px;
+                    padding: 10px;
+                    cursor: pointer;
                     font-family: "GeneralSans-Medium";
                     display: flex;
-                    gap: 8px;
+                    gap: 10px;
                     align-items: center;
-                }
-
-                .btn {
-                    padding: 9px 21px;
-                    background-color: #fff;
-                    font-weight: 500;
-                    border-radius: $radius;
-                    font-family: "GeneralSans-Medium";
+                    &:nth-child(2) {
+                        padding: 0;
+                        a {
+                            padding: 10px;
+                            text-decoration: none !important;
+                            color: $white02;
+                        }
+                    }
+                    &:last-child {
+                        padding: 0;
+                        .btn {
+                            padding: 9px 24px;
+                            background-color: #fff;
+                            font-weight: 500;
+                            border-radius: $radius;
+                            font-family: "GeneralSans-Medium";
+                        }
+                    }
                 }
             }
         }
