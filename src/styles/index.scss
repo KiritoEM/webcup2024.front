@@ -2,6 +2,7 @@
 
 //styles navbar
 @import "./navbar/landing-navbar.scss";
+@import "./navbar/dashboard-navbar.scss";
 
 //styles landing
 @import "./landing.scss";
@@ -19,3 +20,6 @@
 
 //inputs styles
 @import "./inputs/auth-input.scss";
+
+//styles dashboard
+@import "./dashboard-home.scss";

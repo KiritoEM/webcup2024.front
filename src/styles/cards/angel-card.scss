@@ -2,14 +2,14 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 215, 0, 0.40);
     background: linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(255, 215, 0, 0.20) 100%);
-    padding: 13px 23px 31px 23px;
+    padding: 14px 28px 32px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 354px;
-
+    gap: 25px;
+    width: 325px;
     h2 {
         color: $white02;
+        font-size: 40px;
         font-family: "GeneralSans-Medium";
     }
 
@@ -30,5 +30,5 @@
 
 
 .swiper-slide {
-    width: 354px !important;
+    width: 325px !important;
 }

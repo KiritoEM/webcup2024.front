@@ -51,7 +51,8 @@ const enTranslation = {
     },
   },
   angel: {
-    title: "Decouvrez nos anges",
+    title: "Decouvrez nos",
+    angel: "anges",
     angel1: {
       description:
         "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider",
@@ -77,6 +78,37 @@ const enTranslation = {
         "L'Ange du Foyer, Lumielle fournit une aide avec les tâches ménagères, rendant ainsi le foyer propre, confortable et accueillant.",
     },
   },
+  footer: {
+    navigation: {
+      text: "Navigation",
+      home: "Home",
+      about: "About",
+      showcase: "Showcase",
+      faq: "FAQ",
+    },
+    team: {
+      text: 'Our Team "trimobe"',
+      sedra: "Sedra",
+      fana: "Herifanantenana",
+      ema: "Emadisson",
+      junot: "Junnot D'Avis",
+    },
+    legal: {
+      text: "Legal",
+      general: "Information générale",
+      mention: "Mention légal",
+      condition: "Condition d'itulisation",
+    },
+    contact: {
+      text: "contact",
+      email: "support@dd.com",
+      phone: "+261 34 62 199 51",
+      nothing: " ",
+      facebook: "facebook",
+      linkedin: "linkedin",
+      tweet: "twitter",
+    },
+  },
   login: {
     title: "Login to your account",
   },
@@ -89,7 +121,7 @@ const enTranslation = {
     save_email: "Se souvenir de moi",
     forgot_password: "Mot de passe oublié?",
     name: "Name",
-    localisation : "Localisation"
+    localisation: "Localisation",
   },
 };
 

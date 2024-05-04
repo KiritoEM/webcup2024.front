@@ -1,3 +1,4 @@
+import DashboardHome from "../pages/DashboardHome";
 import Landing from "../pages/Landing";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
@@ -7,6 +8,7 @@ import {
   INavList,
   IrouteList,
   ItarifCard,
+  IfooterNav,
 } from "../utils/interfaces";
 
 const navList: INavList = {
@@ -39,6 +41,10 @@ const routeList: IrouteList[] = [
     url: "/signup",
     component: Signup,
   },
+  {
+    url: "/dashboard/home",
+    component: DashboardHome,
+  },
 ];
 
 const aboutData: IaboutCard[] = [
@@ -69,6 +75,46 @@ const aboutData: IaboutCard[] = [
     subtitle: "about.message.subtitle",
     col_indice: "col-4",
     id: "message",
+  },
+];
+
+const footerNav: IfooterNav[] = [
+  {
+    title: "footer.navigation.text",
+    links: [
+      "footer.navigation.home",
+      "footer.navigation.about",
+      "footer.navigation.showcase",
+      "footer.navigation.faq",
+    ],
+  },
+  {
+    title: "footer.team.text",
+    links: [
+      "footer.team.sedra",
+      "footer.team.fana",
+      "footer.team.ema",
+      "footer.team.junot",
+    ],
+  },
+  {
+    title: "footer.legal.text",
+    links: [
+      "footer.legal.general",
+      "footer.legal.mention",
+      "footer.legal.condition",
+    ],
+  },
+  {
+    title: "footer.contact.text",
+    links: [
+      "footer.contact.email",
+      "footer.contact.phone",
+      "footer.contact.nothing",
+      "footer.contact.facebook",
+      "footer.contact.linkedin",
+      "footer.contact.tweet",
+    ],
   },
 ];
 
@@ -131,4 +177,33 @@ const angelData: IangelCard[] = [
   },
 ];
 
-export { navList, routeList, aboutData, tarifData, angelData };
+const dashboardnavData = [
+  {
+    icon_active: "/home-active.svg",
+    icon: "",
+    label: "Dashboard",
+    url :"/dashboard/home"
+  },
+  {
+    icon: "/star.png",
+    label: "Discuter avec notre IA",
+  },
+  {
+    icon: "/star.png",
+    label: "Messagerie",
+  },
+  {
+    icon: "/user.png",
+    label: "Liste des Anges",
+  },
+];
+
+export {
+  navList,
+  routeList,
+  aboutData,
+  tarifData,
+  angelData,
+  footerNav,
+  dashboardnavData,
+};

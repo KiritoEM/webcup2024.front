@@ -44,6 +44,10 @@ interface IaboutCard {
   col_indice?: string;
   id?: string;
 }
+interface IfooterNav {
+  title: string;
+  links: string[];
+} 
 
 interface ItarifCard {
   subtitle: string;
@@ -81,6 +85,7 @@ export type {
   IaboutCard,
   ItarifCard,
   IangelCard,
+
   IauthHeader,
-  IauthInput,
+  IauthInput, IfooterNav,
 };
