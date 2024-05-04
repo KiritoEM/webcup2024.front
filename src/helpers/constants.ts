@@ -1,4 +1,5 @@
 import Landing from "../pages/Landing";
+import Login from "../pages/Login";
 import {
   IaboutCard,
   IangelCard,
@@ -29,6 +30,10 @@ const routeList: IrouteList[] = [
     url: "/",
     component: Landing,
   },
+  {
+    url: "/login",
+    component: Login,
+  },
 ];
 
 const aboutData: IaboutCard[] = [
@@ -51,14 +56,14 @@ const aboutData: IaboutCard[] = [
     text: "about.deliver.text",
     subtitle: "about.deliver.subtitle",
     col_indice: "col-8",
-    id: "deliver"
+    id: "deliver",
   },
   {
     image: "/about-4.png",
     text: "about.message.text",
     subtitle: "about.message.subtitle",
     col_indice: "col-4",
-    id: "message"
+    id: "message",
   },
 ];
 

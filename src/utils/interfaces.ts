@@ -60,6 +60,10 @@ interface IangelCard {
   description: string;
 }
 
+interface IauthHeader {
+  title: string;
+}
+
 export type {
   INavList,
   navItem,
@@ -71,4 +75,5 @@ export type {
   IaboutCard,
   ItarifCard,
   IangelCard,
+  IauthHeader,
 };
