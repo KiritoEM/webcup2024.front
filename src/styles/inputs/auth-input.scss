@@ -17,5 +17,10 @@
         height: 40px;
         padding: 10px;
         font-size: 14px;
+        color: $white02;
+
+        &:focus {
+            outline: 1px solid $yellow01;
+        }
     }
 }

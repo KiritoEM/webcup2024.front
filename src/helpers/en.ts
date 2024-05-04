@@ -80,11 +80,16 @@ const enTranslation = {
   login: {
     title: "Login to your account",
   },
+  signup: {
+    title: "Create account",
+  },
   auth: {
     email: "Email",
     password: "Password",
-    save_email : "Se souvenir de moi",
-    forgot_password : "Mot de passe oublié?"
+    save_email: "Se souvenir de moi",
+    forgot_password: "Mot de passe oublié?",
+    name: "Name",
+    localisation : "Localisation"
   },
 };
 

@@ -17,7 +17,6 @@
         backdrop-filter: blur(117px);
         padding: 50px 35px;
         width: 408px;
-        height: max-content;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -73,6 +72,7 @@
                 color: $yellow01;
                 font-family: "GeneralSans-Medium";
                 margin-left: 5px;
+                cursor: pointer;
             }
         }
     }
