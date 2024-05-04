@@ -64,6 +64,10 @@
                     padding-right: 20px;
                     color: #AEB9E1;
 
+                    &:focus {
+                        outline: none;
+                    }
+
                     &::placeholder {
                         color: #AEB9E1;
                     }
@@ -78,6 +82,7 @@
         border-radius: 8px;
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         img {
             padding: 0 15px;
@@ -92,11 +97,12 @@
         display: flex;
         align-items: center;
         gap: 12px;
+        cursor: pointer;
 
-        p{
+        p {
             color: $white02;
 
-            span{
+            span {
                 font-family: "GeneralSans-Medium";
             }
         }

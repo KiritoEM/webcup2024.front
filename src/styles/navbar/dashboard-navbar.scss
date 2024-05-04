@@ -32,6 +32,12 @@
                     align-items: center;
                     padding: 5px 12px;
                     gap: 8px;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: $yellow01;
+                        color: $black01;
+                    }
                 }
 
                 #nav-active {

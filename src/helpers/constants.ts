@@ -182,15 +182,15 @@ const dashboardnavData = [
     icon_active: "/home-active.svg",
     icon: "",
     label: "Dashboard",
-    url :"/dashboard/home"
-  },
-  {
-    icon: "/star.png",
-    label: "Discuter avec notre IA",
+    url: "/dashboard/home",
   },
   {
     icon: "/star.png",
     label: "Messagerie",
+  },
+  {
+    icon: "/star.png",
+    label: "Discuter avec notre IA",
   },
   {
     icon: "/user.png",
