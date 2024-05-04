@@ -33,8 +33,8 @@
     }
 
     h1 {
-      font-size: 5rem;
-      margin-top: 26px;
+      margin: 16px;
+      font-size: 88px;
       font-weight: 600;
       font-family: "CalSans-SemiBold";
       background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
@@ -46,6 +46,7 @@
       span {
         background: #FFD700;
         background-clip: text;
+        font-family: "CalSans-SemiBold";
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }

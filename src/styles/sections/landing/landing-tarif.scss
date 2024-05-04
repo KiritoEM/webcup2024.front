@@ -1,0 +1,78 @@
+.landing__tarif {
+  padding: 86px 145px;
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 50px;
+    font-family: "CalSans-SemiBold";
+    font-weight: 600;
+    width: 464px;
+    line-height: 60px;
+    span {
+      color: $yellow01;
+      font-family: "CalSans-SemiBold";
+    }
+  }
+
+  article {
+    background-color: $black01;
+    border-radius: 10px;
+    width: 355px;
+    padding: 25px 23px 31px;
+    hr {
+      border: 1px solid;;
+      color: $white05;
+      margin: 0;
+    }
+    .tarif_title {
+      .tarif_description{
+        padding: 24px 0;
+        h4 {
+          font-size: 40px;
+          color: $white02;
+          font-family: "GeneralSans-Medium";
+        }
+        ul {
+          padding-top: 10px;
+          li {
+            color: #AAA;
+            font-size: 16px;
+          }
+        }
+      }
+      .tarif_price {
+        padding: 24px 0;
+        p {
+          color: $white02;
+          line-height: normal;
+          font-size: 24px;
+          font-family: "GeneralSans-Medium";
+          span {
+            font-size: 60px;
+            font-family: "GeneralSans-Medium";
+          }
+        }
+        ul {
+          li {
+            color: #AAA;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  button {
+    width: 100%;
+    padding: 16px 32px;
+    font-size: 20px !important;
+    font-family: "GeneralSans-Medium";
+    text-align: center;
+    color: $white03;
+    border: 1px solid $white06;
+    border-radius: 10px;
+  }
+}
