@@ -3,7 +3,6 @@ import { ComponentType, ReactNode } from "react";
 
 interface INavList {
   navSection01: navItem[];
-  navSection02: navItem[];
 }
 
 type navItem = {

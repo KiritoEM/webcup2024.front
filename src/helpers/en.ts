@@ -6,7 +6,7 @@ const enTranslation = {
   },
   nav02: {
     FAQ: "FAQ",
-    key: "Log in",
+    button: "Log In",
   },
 };
 

@@ -16,14 +16,6 @@ const navList: INavList = {
       sectionId: "showcase",
     },
   ],
-  navSection02: [
-    {
-      key: "nav02.FAQ",
-    },
-    {
-      key: "nav02.button",
-    },
-  ],
 };
 
 const routeList: IrouteList[] = [
