@@ -1,0 +1,19 @@
+.landing__about {
+    width: 100%;
+    background-color: $black01;
+    padding: 86px 88px;
+
+    .about-content {
+        .header h2 {
+            font-size: 50px;
+            color: #fff;
+            width: 500px;
+            font-family: "GeneralSans-Semibold";
+
+            span {
+                font-family: "GeneralSans-Semibold";
+                color: $yellow01;
+            }
+        }
+    }
+}

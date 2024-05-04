@@ -1,4 +1,5 @@
 import LandingLayout from "../components/layouts/LandingLayout";
+import LandingAbout from "../components/sections/landing/LandingAbout";
 import LandingHero from "../components/sections/landing/LandingHero";
 
 const Landing = (): JSX.Element => {
@@ -6,6 +7,7 @@ const Landing = (): JSX.Element => {
     <section className="landing">
       <LandingLayout>
         <LandingHero />
+        <LandingAbout />
       </LandingLayout>
     </section>
   );

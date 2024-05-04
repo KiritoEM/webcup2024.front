@@ -3,6 +3,8 @@ $radius : 50px;
 $white01 : #ffffff8c;
 $white02 : #fff;
 $white03 : #A6AEB6;
+$black01 : #030303;
+$yellow01 : #FFD700;
 
 
 //fonction pour le responsive
@@ -35,8 +37,7 @@ $white03 : #A6AEB6;
 //importation des fonts
 $font-path: '../assets/fonts/';
 
-$font-weights: (
-    'extralight': 200,
+$font-weights: ('extralight': 200,
     'Light': 300,
     'Regular': 400,
     'Medium': 500,

@@ -2,6 +2,7 @@
   padding: 50px 88px;
   background-image: url("/hero-bg.png");
   background-size: cover;
+  
 
   .hero-content {
     width: 700px;
@@ -31,7 +32,7 @@
     }
 
     h1 {
-      font-size: 5rem;
+      font-size: 84px;
       margin-top: 26px;
       font-weight: 600;
       font-family: "CalSans-SemiBold";
@@ -40,6 +41,10 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       width: 670px;
+
+      // @include screen(){
+
+      // }
 
       span {
         background: #FFD700;

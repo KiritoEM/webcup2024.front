@@ -9,12 +9,13 @@
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        padding: 24px 90px;
+        padding: 24px 88px;
 
         .nav-section1 {
             ul {
                 display: flex;
                 gap: 25px;
+                padding-left: 0;
 
                 li {
                     color: $white02;
