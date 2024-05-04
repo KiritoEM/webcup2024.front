@@ -87,32 +87,32 @@ const tarifData: ItarifCard[] = [
 
 const angelData: IangelCard[] = [
   {
-    description: "angel.ange1.name",
+    description: "angel.angel1.description",
     image: "/angel1.png",
     name: "Cupidon",
   },
   {
-    description: "angel.ange2.name",
+    description: "angel.angel2.description",
     image: "/angel2.png",
     name: "Aria",
   },
   {
-    description: "angel.ange3.name",
+    description: "angel.angel3.description",
     image: "/angel3.png",
     name: "Gabriel",
   },
   {
-    description: "angel.ange4.name",
+    description: "angel.angel4.description",
     image: "/angel4.png",
     name: "Sariel",
   },
   {
-    description: "angel.ange5.name",
+    description: "angel.angel5.description",
     image: "/angel5.png",
     name: "Michael",
   },
   {
-    description: "angel.ange6.name",
+    description: "angel.angel6.description",
     image: "/angel6.png",
     name: "Lumielle",
   },

@@ -54,27 +54,27 @@ const enTranslation = {
     title: "Decouvrez nos anges",
     angel1: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider",
     },
     angel2: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "L'Ange du Réconfort, Aria offre un soutien émotionnel et une présence apaisante pour aider à traverser le processus de deuil.",
     },
     angel3: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "Gabriel a la clé pour  gérer le stress et le relaxation pour favoriser un environnement de travail plus calme et productif.",
     },
     angel4: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "L'Ange de la Guérison offre un soutien sanitaire, apporte une présence réconfortante et aide à surmonter une maladie.",
     },
     angel5: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "L'Ange de la Protection Financière, Michael offre des conseils en gestion financière et une protection contre les difficultés économiques, aidant ainsi à surmonter les problèmes financiers.",
     },
     angel6: {
       description:
-        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+        "L'Ange du Foyer, Lumielle fournit une aide avec les tâches ménagères, rendant ainsi le foyer propre, confortable et accueillant.",
     },
   },
 };

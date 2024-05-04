@@ -41,7 +41,7 @@ const LandingAngel = (): JSX.Element => {
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
             }}
-            slidesPerView={4}
+            slidesPerView={"auto"}
             spaceBetween={25}
             modules={[Pagination, Navigation, A11y]}
             className="mySwiper"
