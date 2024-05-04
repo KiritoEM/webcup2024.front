@@ -18,9 +18,6 @@ const navList: INavList = {
   ],
   navSection02: [
     {
-      key: "nav02.pricing",
-    },
-    {
       key: "nav02.FAQ",
     },
     {

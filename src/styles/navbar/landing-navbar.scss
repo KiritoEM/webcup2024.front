@@ -1,0 +1,40 @@
+.landing-navbar {
+    position: absolute;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #030303;
+        padding: 15px;
+
+        .nav-section1 {
+            ul {
+                display: flex;
+                gap: 25px;
+
+                li {
+                    color: #F2F2F7;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+
+
+        .nav-section2 {
+            ul {
+                display: flex;
+                gap: 25px;
+
+                li {
+                    color: #F2F2F7;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

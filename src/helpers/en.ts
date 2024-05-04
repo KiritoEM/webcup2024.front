@@ -5,7 +5,6 @@ const enTranslation = {
     showcase: "Showcase",
   },
   nav02: {
-    pricing: "Pricing",
     FAQ: "FAQ",
     key: "Log in",
   },

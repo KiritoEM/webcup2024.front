@@ -5,9 +5,8 @@ const frTranslation = {
     showcase: "Vitrine",
   },
   nav02: {
-    pricing: "Prix",
     FAQ: "FAQ",
-    key: "Se connecter",
+    button: "Se connecter",
   },
   hero: {
     title: "Rejoignez la révolution  verte avec BioSync",

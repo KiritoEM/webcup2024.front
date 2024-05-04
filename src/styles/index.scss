@@ -1,3 +1,7 @@
 @import "./settings";
-@import "./mixins";
-@import "./variables";
+
+//styles navbar
+@import "./navbar/landing-navbar.scss";
+
+//styles landing
+@import "./landing.scss";
