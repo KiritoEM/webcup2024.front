@@ -1,11 +1,11 @@
 import Landing from "../pages/Landing";
-import { IaboutCard, IfooterNav, INavList, IrouteList } from "../utils/interfaces";
 import {
   IaboutCard,
   IangelCard,
   INavList,
   IrouteList,
   ItarifCard,
+  IfooterNav
 } from "../utils/interfaces";
 
 const navList: INavList = {
@@ -103,7 +103,6 @@ const footerNav: IfooterNav[] = [
   }
 ]
 
-export { navList, routeList, aboutData, footerNav };
 const tarifData: ItarifCard[] = [
   {
     price: 20,
@@ -163,4 +162,4 @@ const angelData: IangelCard[] = [
   },
 ];
 
-export { navList, routeList, aboutData, tarifData, angelData };
+export { navList, routeList, aboutData, tarifData, angelData, footerNav };
