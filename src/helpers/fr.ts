@@ -1,9 +1,13 @@
 const frTranslation = {
-  nav: {
-    Home: "Accueil",
-    About: "A propos",
-    Features: "Fonctionnalités",
-    button: "Commencer",
+  nav01: {
+    home: "Accueil",
+    about: "A propos",
+    showcase: "Vitrine",
+  },
+  nav02: {
+    pricing: "Prix",
+    FAQ: "FAQ",
+    key: "Se connecter",
   },
   hero: {
     title: "Rejoignez la révolution  verte avec BioSync",

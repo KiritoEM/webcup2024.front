@@ -1,29 +1,29 @@
-import { InavList } from "../utils/interfaces";
+import { INavList } from "../utils/interfaces";
 
-const navList: InavList = {
+const navList: INavList = {
   navSection01: [
     {
-      key: "nav.home",
+      key: "nav01.home",
       sectionId: "home",
     },
     {
-      key: "nav.about",
+      key: "nav01.about",
       sectionId: "about",
     },
     {
-      key: "nav.Showcase",
-      sectionId: "Showcase",
+      key: "nav01.showcase",
+      sectionId: "showcase",
     },
   ],
   navSection02: [
     {
-      key: "nav.pricing",
+      key: "nav02.pricing",
     },
     {
-      key: "nav.FAQ",
+      key: "nav02.FAQ",
     },
     {
-      key: "nav.button",
+      key: "nav02.button",
     },
   ],
 };
