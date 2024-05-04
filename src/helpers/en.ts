@@ -83,6 +83,8 @@ const enTranslation = {
   auth: {
     email: "Email",
     password: "Password",
+    save_email : "Se souvenir de moi",
+    forgot_password : "Mot de passe oublié?"
   },
 };
 

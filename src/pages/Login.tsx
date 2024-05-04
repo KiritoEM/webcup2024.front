@@ -10,6 +10,15 @@ const Login = (): JSX.Element => {
         <AuthHeader title={t("login.title")} />
         <AuthInput label="auth.email" name="" placeholder="exampl@gmail.com" />
         <AuthInput label="auth.password" name="" placeholder="••••••••••" />
+        <div className="options">
+          <div className="save">
+            <input type="checkbox" name="" id="" /> {t("auth.save_email")}
+          </div>
+          <p className="forgot-password">{t("auth.forgot_password")}</p>
+        </div>
+        <div className="button">
+          <button className="btn">Se connecter</button>
+        </div>
       </div>
     </section>
   );
