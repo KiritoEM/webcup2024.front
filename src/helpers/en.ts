@@ -27,6 +27,37 @@ const enTranslation = {
       text: "Forget intermediaries, you & your team will directly collaborate with your designer on Slack.",
     },
   },
+  footer: {
+    navigation: {
+      text: "Navigation",
+      home: "Home",
+      about: "About",
+      showcase: "Showcase",
+      faq: "FAQ",
+    },
+    team: {
+      text: "Our Team \"trimobe\"",
+      sedra: "Sedra",
+      fana: "Herifanantenana",
+      ema: "Emadisson",
+      junot: "Junnot D'Avis" 
+    },
+    legal: {
+      text: "Legal",
+      general: "Information générale",
+      mention: "Mention légal",
+      condition: "Condition d'itulisation"
+    },
+    contact: {
+      text: "contact",
+      email: "support@dd.com",
+      phone: "+261 34 62 199 51",
+      nothing: " ",
+      facebook: "facebook",
+      linkedin: "linkedin",
+      tweet: "twitter"
+    }
+  },
 };
 
 export default enTranslation;

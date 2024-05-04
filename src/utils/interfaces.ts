@@ -44,6 +44,10 @@ interface IaboutCard {
   col_indice?: string;
   id?: string;
 }
+interface IfooterNav {
+  title: string;
+  links: string[];
+} 
 
 export type {
   INavList,
@@ -54,4 +58,5 @@ export type {
   children,
   IrouteList,
   IaboutCard,
+  IfooterNav
 };
