@@ -1,60 +1,68 @@
-.landing__hero{
-  background-color: #3D3D3D;
+.landing__hero {
   padding: 50px 88px;
-  .hero-content {
-    border: 1px solid #fff;
-    width: 700px;
-  }
-  .btn-top {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 10px 13px !important;
-    font-size: 13px;
-    border: 1px solid #222;
-    border-radius: 10px;
-    background-color:rgba(254, 254, 254, 0.18);
-    span {
-      color: #FFFFFF;
-      font-weight: 500;
-    }
-    img {
-      width: 16px;
-      margin-left: 10px;
-      border: 2px;
-    }
-  }
+  background-image: url("/hero-bg.png");
+  background-size: cover;
 
-  h1 {
-    margin: 16px;
-    font-size: 88px;
-    font-weight: 600; 
-    font-family: "Cal Sans";
-    background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-    span {
-      background: #FFD700;
+  .hero-content {
+    width: 700px;
+    margin-top: 5rem;
+
+    .btn-top {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 10px 13px !important;
+      font-size: 13px;
+      border: 1px solid #222;
+      border-radius: 10px;
+      color: $white01;
+      background-color: rgba(254, 254, 254, 0.18);
+
+      span {
+        color: $white02;
+        font-family: "GeneralSans-Medium";
+      }
+
+      img {
+        width: 16px;
+        margin-left: 10px;
+        border: 2px;
+      }
+    }
+
+    h1 {
+      margin: 16px;
+      font-size: 62px;
+      font-weight: 600;
+      font-family: "CalSans-SemiBold";
+      background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      width: 485px;
+
+      span {
+        background: #FFD700;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
-  }
-  p {
-    margin-top: 26px;
-    font-size: 18px;
-  }
 
-  .btn-bottom {
-    margin-top: 40px;
-    font-weight: 500;
-    background: #FEFEFE;
-    font-family: "General Sans Variable";
-    border-radius: 30px;
-    font-size: 18px;
-    padding: 11px 24px;
-  }
+    p {
+      margin-top: 26px;
+      color: $white03;
+    }
 
+    .btn-bottom {
+      margin-top: 40px;
+      font-weight: 500;
+      background: #FEFEFE;
+      font-family: "General";
+      border-radius: 30px;
+      font-size: 18px;
+      padding: 11px 24px;
+    }
+
+  }
 }

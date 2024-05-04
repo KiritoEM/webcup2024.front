@@ -1,13 +1,13 @@
 .landing-navbar {
     position: absolute;
     width: 100%;
+    top: 0;
 
     &__container {
         display: flex;
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        background-color: #030303;
         padding: 24px 90px;
 
         .nav-section1 {
@@ -16,7 +16,7 @@
                 gap: 25px;
 
                 li {
-                    color: #F2F2F7;
+                    color: $white02;
                     font-size: 16px;
                     font-family: "GeneralSans-Medium";
                 }
@@ -31,7 +31,7 @@
                 gap: 25px;
 
                 li {
-                    color: #F2F2F7;
+                    color: $white02;
                     font-size: 16px;
                     font-family: "GeneralSans-Medium";
                     display: flex;
