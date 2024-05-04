@@ -1,4 +1,5 @@
-import { ReactNode } from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { ComponentType, ReactNode } from "react";
 
 interface INavList {
   navSection01: navItem[];
@@ -32,6 +33,11 @@ type children = {
   children: ReactNode;
 };
 
+interface IrouteList {
+  url: string;
+  component: ComponentType<any>;
+}
+
 export type {
   INavList,
   navItem,
@@ -39,4 +45,5 @@ export type {
   IDefaultNavContext,
   INavProvider,
   children,
+  IrouteList,
 };

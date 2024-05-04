@@ -1,8 +1,11 @@
-const App = () : JSX.Element => {
+import AppLayout from "./components/layouts/AppLayout";
+import AppRoutes from "./routes/AppRoutes";
+
+const App = (): JSX.Element => {
   return (
-    <div>
-      hello world Fana
-    </div>
+    <AppLayout>
+      <AppRoutes />
+    </AppLayout>
   );
 };
 

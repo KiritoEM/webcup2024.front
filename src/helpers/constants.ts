@@ -1,4 +1,5 @@
-import { INavList } from "../utils/interfaces";
+import Landing from "../pages/Landing";
+import { INavList, IrouteList } from "../utils/interfaces";
 
 const navList: INavList = {
   navSection01: [
@@ -28,4 +29,11 @@ const navList: INavList = {
   ],
 };
 
-export { navList };
+const routeList: IrouteList[] = [
+  {
+    url: "/",
+    component: Landing,
+  },
+];
+
+export { navList, routeList };
