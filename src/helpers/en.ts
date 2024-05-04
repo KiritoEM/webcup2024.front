@@ -77,6 +77,9 @@ const enTranslation = {
         "L'Ange du Foyer, Lumielle fournit une aide avec les tâches ménagères, rendant ainsi le foyer propre, confortable et accueillant.",
     },
   },
+  login: {
+    title: "Login to your account",
+  },
 };
 
 export default enTranslation;
