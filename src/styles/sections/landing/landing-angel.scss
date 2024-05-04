@@ -1,0 +1,35 @@
+.landing__angel {
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 86px 88px;
+    background-color: $black02;
+
+    .angel-content {
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-size: 50px;
+                color: #fff;
+                font-family: "GeneralSans-Semibold";
+
+                span {
+                    font-family: "GeneralSans-Semibold";
+                    color: $yellow01;
+                }
+            }
+
+            .swiper-buttons {
+                display: flex;
+                gap: 12px;
+
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
