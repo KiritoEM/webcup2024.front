@@ -63,6 +63,16 @@ interface IangelCard {
   name: string;
   description: string;
 }
+interface IchatProps {
+  action: (e: any) => void;
+  chats: Ichats[];
+  close: () => void;
+}
+
+interface Ichats {
+  role: string;
+  content: string;
+}
 
 export type {
   INavList,
@@ -75,5 +85,7 @@ export type {
   IaboutCard,
   ItarifCard,
   IangelCard,
-  IfooterNav
+  IfooterNav,
+  IchatProps,
+  Ichats,
 };
