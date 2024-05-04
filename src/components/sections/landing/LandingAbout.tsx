@@ -10,15 +10,13 @@ const LandingAbout = (): JSX.Element => {
             Tout ce dont vous avez <span>besoin</span>
           </h2>
         </div>
-        <div className="content">
-          <div className="row gy-5 gx-4">
+         <div className="row gy-5 gx-4">
             {aboutData.map((item, index) => (
               <div key={index} className={item.col_indice}>
                 <AboutCard {...item} />
               </div>
             ))}
           </div>
-        </div>
       </div>
     </section>
   );

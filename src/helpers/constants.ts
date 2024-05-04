@@ -31,6 +31,7 @@ const aboutData: IaboutCard[] = [
     text: "about.soutien.text",
     subtitle: "about.soutien.subtitle",
     col_indice: "col-4",
+    id: "soutien",
   },
   {
     image: "/about-2.png",
@@ -43,13 +44,15 @@ const aboutData: IaboutCard[] = [
     image: "/about-3.png",
     text: "about.deliver.text",
     subtitle: "about.deliver.subtitle",
-    col_indice: "col-8"
+    col_indice: "col-8",
+    id: "deliver"
   },
   {
     image: "/about-4.png",
     text: "about.message.text",
     subtitle: "about.message.subtitle",
     col_indice: "col-4",
+    id: "message"
   },
 ];
 

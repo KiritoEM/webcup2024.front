@@ -24,7 +24,7 @@ const enTranslation = {
     },
     message: {
       subtitle: "Une boite de messagerie intégrée",
-      text: "orget intermediaries, you & your team will directly collaborate with your designer on Slack.",
+      text: "Forget intermediaries, you & your team will directly collaborate with your designer on Slack.",
     },
   },
 };

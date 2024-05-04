@@ -6,7 +6,7 @@ const AboutCard = ({ image, text, subtitle, id }: IaboutCard): JSX.Element => {
   return (
     <article
       className="about-card"
-      style={{ backgroundImage: `url(${image})` }}
+      style={{ backgroundImage: `url(${image})`}}
       id={id}
     >
       <div className="content">
