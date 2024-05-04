@@ -19,6 +19,9 @@ const Login = (): JSX.Element => {
         <div className="button">
           <button className="btn">Se connecter</button>
         </div>
+        <p className="signup-link">
+          Nouveau ici?<span> Créer un compte</span>
+        </p>
       </div>
     </section>
   );
