@@ -26,7 +26,9 @@ const LandingAngel = (): JSX.Element => {
     <section className="landing__angel">
       <div className="angel-content">
         <div className="header">
-          <h2>{t("angel.title")}</h2>
+          <h2>{t("angel.title")}
+            <span> {t("angel.angel")}</span>
+          </h2>
           <div className="swiper-buttons">
             <div className="left" onClick={() => prevSwiper()}>
               <img src="/chevron-left.png" alt="" />
@@ -42,7 +44,7 @@ const LandingAngel = (): JSX.Element => {
               swiperRef.current = swiper;
             }}
             slidesPerView={"auto"}
-            spaceBetween={25}
+            spaceBetween={50}
             modules={[Pagination, Navigation, A11y]}
             className="mySwiper"
           >

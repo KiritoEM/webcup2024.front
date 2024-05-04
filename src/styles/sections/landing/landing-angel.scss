@@ -2,7 +2,7 @@
     width: 100%;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    padding: 86px 88px;
+    padding: 86px 147px;
     background-color: $black02;
 
     .angel-content {
@@ -10,15 +10,22 @@
         .header {
             display: flex;
             justify-content: space-between;
-
+            align-items: center;
+            
             h2 {
-                font-size: 50px;
-                color: #fff;
+                font-size: 56px;
+                background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-family: "GeneralSans-Semibold";
 
                 span {
                     font-family: "GeneralSans-Semibold";
-                    color: $yellow01;
+                    background: $yellow01;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
                 }
             }
 
@@ -37,7 +44,11 @@
         }
 
         .content {
-            margin-top: 82px;
+            margin-top: 90px;
         }
+
     }
+}
+.swiper {
+    overflow: visible !important;
 }

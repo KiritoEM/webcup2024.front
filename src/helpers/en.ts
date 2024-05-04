@@ -51,7 +51,8 @@ const enTranslation = {
     },
   },
   angel: {
-    title: "Decouvrez nos anges",
+    title: "Decouvrez nos",
+    angel: "anges",
     angel1: {
       description:
         "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider",
