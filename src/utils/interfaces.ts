@@ -64,6 +64,12 @@ interface IauthHeader {
   title: string;
 }
 
+interface IauthInput {
+  label: string;
+  placeholder: string;
+  name: string;
+}
+
 export type {
   INavList,
   navItem,
@@ -76,4 +82,5 @@ export type {
   ItarifCard,
   IangelCard,
   IauthHeader,
+  IauthInput,
 };
