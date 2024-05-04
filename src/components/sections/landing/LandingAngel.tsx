@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, A11y } from "swiper/modules";
 import { MutableRefObject, useRef } from "react";
+import { angelData } from "../../../helpers/constants";
+import AngelCard from "../../cards/AngelCard";
 
 const LandingAngel = (): JSX.Element => {
   const swiperRef: MutableRefObject<any> = useRef(null);
@@ -43,7 +45,13 @@ const LandingAngel = (): JSX.Element => {
             spaceBetween={25}
             modules={[Pagination, Navigation, A11y]}
             className="mySwiper"
-          ></Swiper>
+          >
+            {angelData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <AngelCard {...item} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </section>

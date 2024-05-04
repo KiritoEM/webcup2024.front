@@ -1,6 +1,7 @@
 import Landing from "../pages/Landing";
 import {
   IaboutCard,
+  IangelCard,
   INavList,
   IrouteList,
   ItarifCard,
@@ -84,4 +85,37 @@ const tarifData: ItarifCard[] = [
   },
 ];
 
-export { navList, routeList, aboutData, tarifData };
+const angelData: IangelCard[] = [
+  {
+    description: "angel.ange1.name",
+    image: "/angel1.png",
+    name: "Cupidon",
+  },
+  {
+    description: "angel.ange2.name",
+    image: "/angel2.png",
+    name: "Aria",
+  },
+  {
+    description: "angel.ange3.name",
+    image: "/angel3.png",
+    name: "Gabriel",
+  },
+  {
+    description: "angel.ange4.name",
+    image: "/angel4.png",
+    name: "Sariel",
+  },
+  {
+    description: "angel.ange5.name",
+    image: "/angel5.png",
+    name: "Michael",
+  },
+  {
+    description: "angel.ange6.name",
+    image: "/angel6.png",
+    name: "Lumielle",
+  },
+];
+
+export { navList, routeList, aboutData, tarifData, angelData };

@@ -51,7 +51,13 @@ interface ItarifCard {
   price: number;
   button: string;
   id?: string;
-  engagement : string
+  engagement: string;
+}
+
+interface IangelCard {
+  image: string;
+  name: string;
+  description: string;
 }
 
 export type {
@@ -64,4 +70,5 @@ export type {
   IrouteList,
   IaboutCard,
   ItarifCard,
+  IangelCard,
 };

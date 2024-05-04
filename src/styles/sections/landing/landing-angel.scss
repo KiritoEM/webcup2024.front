@@ -26,8 +26,12 @@
                 display: flex;
                 gap: 12px;
 
-                img {
-                    width: 50px;
+                div {
+                    cursor: pointer;
+
+                    img {
+                        width: 50px;
+                    }
                 }
             }
         }

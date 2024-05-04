@@ -52,6 +52,30 @@ const enTranslation = {
   },
   angel: {
     title: "Decouvrez nos anges",
+    angel1: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
+    angel2: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
+    angel3: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
+    angel4: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
+    angel5: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
+    angel6: {
+      description:
+        "L’Ange de l’Amour. Cupidon est là pour vos problèmes en amour, pour vos sentiments, coup de foudre, ... Il saura vous aider ",
+    },
   },
 };
 
