@@ -9,7 +9,7 @@ $font-weights: ('extralight': 200,
     'bold': 700,
 );
 
-$default-font-weight: 400; 
+$default-font-weight: 400;
 
 @each $variant,
 $weight in $font-weights {
