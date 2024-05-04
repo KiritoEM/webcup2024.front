@@ -2,10 +2,13 @@
 $radius : 50px;
 $white01 : #ffffff8c;
 $white02 : #fff;
-$white03 : #A6AEB6;;
-$black01 : #030303;
-$yellow01 : #FFD700;
+$white03 : #A6AEB6;
+$white04 : #F2F2F7;
+$white05 : #3D3C3C;
+$white06 : #FEFEFE;
+$yellow01: #FFD700;
 
+$black01: #090909;
 
 //fonction pour le responsive
 @mixin screen($breakpoint) {
@@ -87,7 +90,6 @@ $weight in $font-weights {
     font-family: "GeneralSans-Regular", sans-serif;
     list-style: none;
     text-decoration: none;
-
 }
 
 li,

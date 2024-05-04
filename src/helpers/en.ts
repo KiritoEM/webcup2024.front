@@ -9,7 +9,7 @@ const enTranslation = {
     button: "Log In",
   },
   about: {
-    title: "",
+    title: "Tout ce dont vous avez <span>besoin</span>",
     soutien: {
       subtitle: "Soutien 24/7",
       text: "Notre équipe est disponible 24/7 pour vous offrir le soutien dont vous avez besoin.",
@@ -25,6 +25,29 @@ const enTranslation = {
     message: {
       subtitle: "Une boite de messagerie intégrée",
       text: "orget intermediaries, you & your team will directly collaborate with your designer on Slack.",
+    },
+  },
+  tarif: {
+    title: "Des tarifs adaptés à vos <span>besoins</span>",
+
+    essential: {
+      subtitle: "Essentiel",
+      text: "Accès à 5 Ange gardien par mois <br/> Disponibilité de 8h00 - 18h00 Assistance 24/7",
+      engagement: "Sans engagement",
+      button: "",
+    },
+    pro: {
+      subtitle: "Pro",
+      text: "Accès à 30 Ange gardien par mois <br/> Disponible à tout moment Priorité sur la file",
+      engagement: "Sans engagement <br/> Satisfait ou remboursé",
+      button: "",
+    },
+    premium: {
+      subtitle: "Premium",
+      text: "Accès à une illimité d’ange Disponible à tout moment Priorité sur la file",
+      engagement:
+        "Sans engagement <br/> Satisfait ou remboursé <br/> Annulable à tout moment",
+      button: "",
     },
   },
 };

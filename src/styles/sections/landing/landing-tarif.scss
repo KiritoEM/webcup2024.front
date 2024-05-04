@@ -1,0 +1,22 @@
+.landing__tarif {
+  width: 100%;
+  background-image: url("/tarif-bg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding: 86px 88px;
+
+  .tarif-content {
+    .header h2 {
+      font-size: 50px;
+      color: #fff;
+      width: 500px;
+      font-family: "GeneralSans-Semibold";
+
+      span {
+        font-family: "GeneralSans-Semibold";
+        color: $yellow01;
+      }
+    }
+  }
+
+}

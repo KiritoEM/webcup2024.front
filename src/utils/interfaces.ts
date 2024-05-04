@@ -45,6 +45,15 @@ interface IaboutCard {
   id?: string;
 }
 
+interface ItarifCard {
+  subtitle: string;
+  text: string;
+  price: number;
+  button: string;
+  id?: string;
+  engagement : string
+}
+
 export type {
   INavList,
   navItem,
@@ -54,4 +63,5 @@ export type {
   children,
   IrouteList,
   IaboutCard,
+  ItarifCard,
 };
