@@ -37,6 +37,14 @@ interface IrouteList {
   component: ComponentType<any>;
 }
 
+interface IaboutCard {
+  image: string;
+  subtitle: string;
+  text: string;
+  col_indice?: string;
+  id?: string;
+}
+
 export type {
   INavList,
   navItem,
@@ -45,4 +53,5 @@ export type {
   INavProvider,
   children,
   IrouteList,
+  IaboutCard,
 };

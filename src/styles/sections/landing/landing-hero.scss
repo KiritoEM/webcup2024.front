@@ -1,8 +1,9 @@
 .landing__hero {
-  padding: 50px 88px;
+  padding: 75px 88px;
   background-image: url("/hero-bg.png");
   background-size: cover;
-  
+  height: max-content;
+
 
   .hero-content {
     width: 700px;
