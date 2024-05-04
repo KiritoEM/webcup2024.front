@@ -14,19 +14,19 @@ const TarifCard = ({
   return (
     <article className="tarif-card" id={id}>
       <div className="details">
-        <h2 dangerouslySetInnerHTML={{ __html: t(subtitle) }} />
-        <p dangerouslySetInnerHTML={{ __html: t(text) }} />
-        <div className="line"></div>
-        <div className="price">
-          <h1>
-            Ar {price}K <span>/mois</span>
-          </h1>
+        <div className="details-one">
+          <h2 dangerouslySetInnerHTML={{ __html: t(subtitle) }} />
+          <p dangerouslySetInnerHTML={{ __html: t(text) }} />
         </div>
-        <p dangerouslySetInnerHTML={{ __html: t(engagement) }} />
+        <hr />
+        <div className="price">
+          <h3>
+            Ar {price}K <span>/mois</span>
+          </h3>
+          <p dangerouslySetInnerHTML={{ __html: t(engagement) }} />
+        </div>
       </div>
-      <div className="button">
-        <button className="btn">{t(button)}</button>
-      </div>
+      <button className="btn">{t(button)}</button>
     </article>
   );
 };

@@ -10,10 +10,10 @@ const LandingTarif = (): JSX.Element => {
         <div className="header">
           <h2 dangerouslySetInnerHTML={{ __html: t("tarif.title") }} />
         </div>
-        <div className="content row">
+        <div className="content">
           <div className="row">
             {tarifData.map((tarif, index) => (
-              <div className="col-4" key={index}>
+              <div className="col" key={index}>
                 <TarifCard {...tarif} />
               </div>
             ))}

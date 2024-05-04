@@ -32,7 +32,7 @@ const enTranslation = {
 
     essential: {
       subtitle: "Essentiel",
-      text: "Accès à 5 Ange gardien par mois <br/> Disponibilité de 8h00 - 18h00 Assistance 24/7",
+      text: "Accès à 5 Ange gardien par mois",
       engagement: "Sans engagement",
       button: "Acheter maintenant",
     },

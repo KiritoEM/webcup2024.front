@@ -6,42 +6,51 @@
     border: 1px solid #232222;
     background: rgba(9, 9, 9, 0.50);
     backdrop-filter: blur(10px);
-    height: 450px;
-    padding: 27px 43px;
+    height: 500px;
+    padding: 25px 23px 31px;
 
     .details {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        gap: 15px;
+        gap: 22px;
 
-        h2 {
-            color: #fff;
-            font-family: "GeneralSans-Medium";
-        }
-
-        p {
-            color: $white01;
-        }
-
-        .line {
-            width: 100%;
-            height: 1px;
-            background-color: $white05;
-        }
-
-        h1 {
-            color: $white02;
-            font-family: "GeneralSans-Medium";
-
-            span {
+        .details-one { 
+            height: 129px;       
+            h2 {
+                color: #fff;
                 font-family: "GeneralSans-Medium";
-                font-size: 24px;
             }
+
+            p {
+                margin-top: 18px;
+                color: $white01;
+            }
+        }
+        hr {
+            margin: 0;
+            border: 1px solid $white01;
+        }
+        .price {
+
+            h3 {
+                color: $white02;
+                font-family: "GeneralSans-Medium";
+                font-size: 54px;
+                span {
+                    font-family: "GeneralSans-Medium";
+                    font-size: 24px;
+                }
+            }
+            p {
+                margin-top: 18px;
+                color: $white01;
+            }
+
         }
     }
 
-    .button .btn {
+    .btn {
         border-radius: 10px;
         border: 1px solid #FEFEFE;
         width: 100%;
@@ -55,7 +64,8 @@
     border: 1px solid #3D3C3C;
     background: linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%);
 
-    .button .btn {
+    .btn {
+        font-family: "GeneralSans-Medium";
         background-color: $white02;
         color: $black01;
     }
