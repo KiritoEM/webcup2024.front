@@ -7,8 +7,7 @@ const LandingHero = (): JSX.Element => {
           <img src="/arrow_right.svg" alt="" />
         </button>
         <h1>
-          {" "}
-          Dans l'obscurité, nous apportons la <span>lumière</span>{" "}
+          Dans l'obscurité, nous apportons la <span>lumière</span>
         </h1>
         <p>
           Nos anges gardiens sont là pour vous aider dans le deuil, les tâches

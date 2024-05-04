@@ -15,7 +15,11 @@ const LandingNavbar = (): JSX.Element => {
           <div className="nav-section1">
             <ul>
               {navList.navSection01.map((item, index) => (
-                <li key={index}>{t(item.key)}</li>
+                <li key={index}>
+                  <a href="">
+                    {t(item.key)}
+                  </a>  
+                </li>
               ))}
             </ul>
           </div>
@@ -29,7 +33,11 @@ const LandingNavbar = (): JSX.Element => {
           <div className="nav-section2">
             <ul>
               <li><img src="/fr.svg" alt="" />Fr</li>
-              <li>{t("nav02.FAQ")}</li>
+              <li>
+                <a href="">  
+                  {t("nav02.FAQ")}
+                </a>
+              </li>
               <li>
                 <button className="btn">{t("nav02.button")}</button>
               </li>
