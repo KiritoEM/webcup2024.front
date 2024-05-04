@@ -10,7 +10,7 @@ const AuthInput = ({ label, name, placeholder }: IauthInput): JSX.Element => {
         type="text"
         id="auth-input"
         name={name}
-        placeholder={t(placeholder)}
+        placeholder={placeholder}
       />
     </div>
   );

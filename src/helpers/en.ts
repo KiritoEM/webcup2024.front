@@ -80,6 +80,10 @@ const enTranslation = {
   login: {
     title: "Login to your account",
   },
+  auth: {
+    email: "Email",
+    password: "Password",
+  },
 };
 
 export default enTranslation;
