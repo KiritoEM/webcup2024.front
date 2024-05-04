@@ -1,0 +1,51 @@
+//importation des fonts
+$font-path: '../assets/fonts/';
+
+$font-weights: ('extralight': 200,
+    'light': 300,
+    'regular': 400,
+    'medium': 500,
+    'semibold': 600,
+    'bold': 700,
+);
+
+$default-font-weight: 400; 
+
+@each $variant,
+$weight in $font-weights {
+    @font-face {
+        font-family: 'GeneralSans-#{$variant}';
+        src: url('#{$font-path}GeneralSans-#{$variant}.woff2') format('woff2'),
+        url('#{$font-path}GeneralSans-#{$variant}.woff') format('woff'),
+        url('#{$font-path}GeneralSans-#{$variant}.ttf') format('truetype');
+        font-weight: if($weight, $weight, $default-font-weight); // Utilisation de $default-font-weight si $weight est non défini
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GeneralSans-#{$variant}Italic';
+        src: url('#{$font-path}GeneralSans-#{$variant}Italic.woff2') format('woff2'),
+        url('#{$font-path}GeneralSans-#{$variant}Italic.woff') format('woff'),
+        url('#{$font-path}GeneralSans-#{$variant}Italic.ttf') format('truetype');
+        font-weight: if($weight, $weight, $default-font-weight); // Utilisation de $default-font-weight si $weight est non défini
+        font-display: swap;
+        font-style: italic;
+    }
+}
+
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0 !important;
+}
+
+button {
+    font-size: 15px !important;
+}
