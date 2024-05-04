@@ -6,10 +6,10 @@
     border: 1px solid #232222;
     background: rgba(9, 9, 9, 0.50);
     backdrop-filter: blur(10px);
-    height: 350px;
-    padding: 25px 23px 31px 23px;
+    height: 450px;
+    padding: 27px 43px;
 
-    .content {
+    .details {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
@@ -24,7 +24,7 @@
             color: $white01;
         }
 
-        .line{
+        .line {
             width: 100%;
             height: 1px;
             background-color: $white05;
@@ -41,15 +41,27 @@
         }
     }
 
-    .button .btn {}
+    .button .btn {
+        border-radius: 10px;
+        border: 1px solid #FEFEFE;
+        width: 100%;
+        padding: 14px 32px;
+        color: #fff;
+        font-size: 16px !important;
+    }
 }
 
 #pro {
     border: 1px solid #3D3C3C;
     background: linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%);
+
+    .button .btn {
+        background-color: $white02;
+        color: $black01;
+    }
 }
 
-#premium{
+#premium {
     h2 {
         color: $yellow01;
     }

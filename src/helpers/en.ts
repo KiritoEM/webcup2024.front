@@ -34,20 +34,20 @@ const enTranslation = {
       subtitle: "Essentiel",
       text: "Accès à 5 Ange gardien par mois <br/> Disponibilité de 8h00 - 18h00 Assistance 24/7",
       engagement: "Sans engagement",
-      button: "",
+      button: "Acheter maintenant",
     },
     pro: {
       subtitle: "Pro",
       text: "Accès à 30 Ange gardien par mois <br/> Disponible à tout moment Priorité sur la file",
       engagement: "Sans engagement <br/> Satisfait ou remboursé",
-      button: "",
+      button: "Tester gratuitement",
     },
     premium: {
       subtitle: "Premium",
       text: "Accès à une illimité d’ange Disponible à tout moment Priorité sur la file",
       engagement:
         "Sans engagement <br/> Satisfait ou remboursé <br/> Annulable à tout moment",
-      button: "",
+      button: "Acheter maintenant",
     },
   },
 };

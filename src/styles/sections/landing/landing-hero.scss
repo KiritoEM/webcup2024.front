@@ -4,7 +4,6 @@
   background-size: cover;
   height: max-content;
 
-
   .hero-content {
     width: 700px;
     margin-top: 5rem;
@@ -42,10 +41,6 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       width: 670px;
-
-      // @include screen(){
-
-      // }
 
       span {
         background: #FFD700;
