@@ -2,6 +2,7 @@
   padding: 50px 88px;
   background-image: url("/hero-bg.png");
   background-size: cover;
+  overflow: hidden;
 
   .hero-content {
     width: 700px;
@@ -11,7 +12,7 @@
       display: flex;
       align-items: center;
       gap: 5px;
-      padding: 10px 13px !important;
+      padding: 9px 13px !important;
       font-size: 13px;
       border: 1px solid #222;
       border-radius: 10px;
@@ -58,10 +59,10 @@
       margin-top: 40px;
       font-weight: 500;
       background: #FEFEFE;
-      font-family: "General";
+      font-family: "GeneralSans-Medium";
       border-radius: 30px;
       font-size: 18px;
-      padding: 11px 24px;
+      padding: 9px 21px;
     }
 
   }
