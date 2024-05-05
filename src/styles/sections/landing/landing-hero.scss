@@ -31,25 +31,27 @@
       }
     }
 
-    h1 {
-      font-size: 84px;
-      margin-top: 32px;
-      font-weight: 600;
-      line-height: 110%;
-      font-family: "CalSans-SemiBold";
-      background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      width: 670px;
-
-      span {
-        background: #FFD700;
+    .title {
+      h1 {
+        font-size: 84px;
+        margin-top: 32px;
+        font-weight: 600;
+        line-height: 110%;
         font-family: "CalSans-SemiBold";
+        background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
         background-clip: text;
-        font-family: "CalSans-SemiBold";
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        width: 670px;
+
+        span {
+          background: #FFD700;
+          font-family: "CalSans-SemiBold";
+          background-clip: text;
+          font-family: "CalSans-SemiBold";
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
       }
     }
 

@@ -1,27 +1,32 @@
 import { useTranslation } from "react-i18next";
 import { footerNav } from "../../../helpers/constants";
+import FadeAnimation from "../../animations/FadeAnimations";
 const LandingFooter = (): JSX.Element => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <section className="landing__footer">
-      <h2>Restez serein. <br /> Rejoignez-nous</h2>
-      <div className="footer-button">
-        <button className="btn-dark"> Se connecter </button>
-        <button className="btn-light"> Se connecter </button>
-      </div>
+      <FadeAnimation direction="bottom">
+        <h2>
+          Restez serein. <br /> Rejoignez-nous
+        </h2>
+      </FadeAnimation>
+      <FadeAnimation direction="bottom">
+        <div className="footer-button">
+          <button className="btn-dark"> Se connecter </button>
+          <button className="btn-light"> Se connecter </button>
+        </div>
+      </FadeAnimation>
       <div className="footer-nav">
-          { footerNav.map((nav, index) => (
-            <div className="nav-item" key={index}>
-              <h4>{t(nav.title)}</h4>
-              <ul>
-                {nav.links.map((link, i) => (
-                  <li key={i}>
-                    {t(link)}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )) }
+        {footerNav.map((nav, index) => (
+          <div className="nav-item" key={index}>
+            <h4>{t(nav.title)}</h4>
+            <ul>
+              {nav.links.map((link, i) => (
+                <li key={i}>{t(link)}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
       <div className="footer-footer">
         <hr />

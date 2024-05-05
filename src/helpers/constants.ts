@@ -1,4 +1,5 @@
 import DashboardHome from "../pages/DashboardHome";
+import DashboardVideo from "../pages/DashboardVideo";
 import Landing from "../pages/Landing";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
@@ -44,6 +45,10 @@ const routeList: IrouteList[] = [
   {
     url: "/dashboard/home",
     component: DashboardHome,
+  },
+  {
+    url: "/dashboard/video",
+    component: DashboardVideo,
   },
 ];
 
@@ -181,13 +186,15 @@ const angelData: IangelCard[] = [
 const dashboardnavData = [
   {
     icon_active: "/home-active.svg",
-    icon: "",
+    icon: "/home.png",
     label: "Dashboard",
     url: "/dashboard/home",
   },
   {
     icon: "/star.png",
+    icon_active: "/star-active.png",
     label: "Messagerie",
+    url: "/dashboard/video",
   },
   {
     icon: "/star.png",
@@ -199,6 +206,33 @@ const dashboardnavData = [
   },
 ];
 
+const brandsData = [
+  "brand1.png",
+  "brand2.png",
+  "brand3.png",
+  "brand4.png",
+  "brand5.png",
+  "brand6.png",
+  "brand7.png",
+  "brand8.png",
+  "brand9.png",
+  "brand10.png",
+  "brand11.png",
+  "brand12.png",
+  "brand1.png",
+  "brand2.png",
+  "brand3.png",
+  "brand4.png",
+  "brand5.png",
+  "brand6.png",
+  "brand7.png",
+  "brand8.png",
+  "brand9.png",
+  "brand10.png",
+  "brand11.png",
+  "brand12.png",
+];
+
 export {
   navList,
   routeList,
@@ -207,4 +241,5 @@ export {
   angelData,
   footerNav,
   dashboardnavData,
+  brandsData,
 };

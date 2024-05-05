@@ -47,7 +47,7 @@ interface IaboutCard {
 interface IfooterNav {
   title: string;
   links: string[];
-} 
+}
 
 interface ItarifCard {
   subtitle: string;
@@ -73,6 +73,16 @@ interface Ichats {
   role: string;
   content: string;
 }
+interface IchatProps {
+  action: (e: any) => void;
+  chats: Ichats[];
+  close: () => void;
+}
+
+interface Ichats {
+  role: string;
+  content: string;
+}
 
 interface IauthHeader {
   title: string;
@@ -82,6 +92,11 @@ interface IauthInput {
   label: string;
   placeholder: string;
   name: string;
+}
+
+interface Ianimation {
+  direction: string;
+  children: ReactNode;
 }
 
 export type {
@@ -99,5 +114,10 @@ export type {
   IchatProps,
   Ichats,
   IauthHeader,
+  IauthInput,
+  IfooterNav,
+  IchatProps,
+  Ichats,
+  Ianimation,
   IauthInput
 };

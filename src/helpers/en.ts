@@ -8,6 +8,9 @@ const enTranslation = {
     FAQ: "FAQ",
     button: "Log In",
   },
+  hero: {
+    title: "Dans l'obscurité, nous apportons la <span>lumière</span>",
+  },
   about: {
     title: "Tout ce dont vous avez <span>besoin</span>",
     soutien: {
@@ -108,20 +111,6 @@ const enTranslation = {
       linkedin: "linkedin",
       tweet: "twitter",
     },
-  },
-  login: {
-    title: "Login to your account",
-  },
-  signup: {
-    title: "Create account",
-  },
-  auth: {
-    email: "Email",
-    password: "Password",
-    save_email: "Se souvenir de moi",
-    forgot_password: "Mot de passe oublié?",
-    name: "Name",
-    localisation: "Localisation",
   },
 };
 

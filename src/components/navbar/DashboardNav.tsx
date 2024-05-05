@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { dashboardnavData } from "../../helpers/constants";
 
 const DashboardNav = (): JSX.Element => {
+  const navigate = useNavigate();
   return (
     <nav className="dashboard-nav">
       <div className="nav-container">
@@ -13,6 +15,7 @@ const DashboardNav = (): JSX.Element => {
               <li
                 key={index}
                 id={window.location.pathname === item.url ? "nav-active" : ""}
+                onClick={() => navigate(item.url ? item.url : "")}
               >
                 <img
                   src={
