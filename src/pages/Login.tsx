@@ -2,16 +2,22 @@ import { useTranslation } from "react-i18next";
 import AuthHeader from "../components/headers/AuthHeader";
 import AuthInput from "../components/inputs/AuthInput";
 import { useNavigate } from "react-router-dom";
+import authServices from "../services/authServices";
 
 const Login = (): JSX.Element => {
   const { t } = useTranslation();
   const navigate = useNavigate();
+  const { login } = authServices();
   return (
     <section className="login auth">
-      <div className="form-container">
+      <form
+        action="post"
+        className="form-container"
+        onSubmit={(e: React.FormEvent<HTMLFormElement>) => login(e)}
+      >
         <AuthHeader title={t("login.title")} />
-        <AuthInput label="auth.email" name="" placeholder="example@gmail.com" />
-        <AuthInput label="auth.password" name="" placeholder="••••••••••" />
+        <AuthInput label="auth.email" name="email" placeholder="example@gmail.com" />
+        <AuthInput label="auth.password" name="password" placeholder="••••••••••" />
         <div className="options">
           <div className="save">
             <input type="checkbox" name="" id="" /> {t("auth.save_email")}
@@ -25,7 +31,7 @@ const Login = (): JSX.Element => {
           Nouveau ici?
           <span onClick={() => navigate("/signup")}> Créer un compte</span>
         </p>
-      </div>
+      </form>
     </section>
   );
 };
