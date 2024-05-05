@@ -1,13 +1,8 @@
 import { useTranslation } from "react-i18next";
 import FadeAnimation from "../../animations/FadeAnimations";
-// import TextAnimation from "../../animations/TextAnimation";
-// import { useEffect } from "react";
 
 const LandingHero = (): JSX.Element => {
   const { t } = useTranslation();
-  // const { divRef } = TextAnimation();
-
-  // useEffect(() => {}, [i18n.language]);
 
   return (
     <section className="landing__hero">

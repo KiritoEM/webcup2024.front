@@ -61,14 +61,14 @@ const aboutData: IaboutCard[] = [
     id: "soutien",
   },
   {
-    image: "/Flow3.json",
+    image: "/Flow_3.json",
     text: "about.solution.text",
     subtitle: "about.solution.subtitle",
     col_indice: "col-8",
     id: "solution",
   },
   {
-    image: "/Flow4.json",
+    image: "/Flow3.json",
     text: "about.deliver.text",
     subtitle: "about.deliver.subtitle",
     col_indice: "col-8",
