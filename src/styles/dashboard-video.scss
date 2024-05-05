@@ -1,0 +1,38 @@
+.dashboard__video {
+    background-color: $black02;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+
+    .video-content {
+        position: relative;
+        left: 350px;
+        width: calc(100% - 350px);
+        padding: 35px;
+
+        .zzHlKp_IVmgXBPV3Jv58 {
+            min-height: 0 !important;
+
+            .D9WLyEQaARfWqCTyVrpU {
+                margin-top: 4vh;
+                width: 100% !important;
+                height: 80vh !important;
+                box-shadow: none !important;
+                border: none !important;
+                background-color: #191919 !important;
+
+                .sJcgXLqA2Va2eqymgksg {
+                    width: 50% !important;
+                }
+
+                .pOvRwHj19chJGkgemUH3 {
+                    padding-left: 5% !important;
+                }
+
+                ._M8cCug8H18ALQ05cNMt {
+                    color: $white02 !important;
+                }
+            }
+        }
+    }
+}

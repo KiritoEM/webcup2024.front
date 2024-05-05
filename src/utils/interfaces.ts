@@ -47,7 +47,7 @@ interface IaboutCard {
 interface IfooterNav {
   title: string;
   links: string[];
-} 
+}
 
 interface ItarifCard {
   subtitle: string;
@@ -62,6 +62,16 @@ interface IangelCard {
   image: string;
   name: string;
   description: string;
+}
+interface IchatProps {
+  action: (e: any) => void;
+  chats: Ichats[];
+  close: () => void;
+}
+
+interface Ichats {
+  role: string;
+  content: string;
 }
 
 interface IauthHeader {
@@ -85,7 +95,9 @@ export type {
   IaboutCard,
   ItarifCard,
   IangelCard,
-
   IauthHeader,
-  IauthInput, IfooterNav,
+  IauthInput,
+  IfooterNav,
+  IchatProps,
+  Ichats,
 };

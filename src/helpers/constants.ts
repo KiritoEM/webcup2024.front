@@ -1,4 +1,5 @@
 import DashboardHome from "../pages/DashboardHome";
+import DashboardVideo from "../pages/DashboardVideo";
 import Landing from "../pages/Landing";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
@@ -44,6 +45,10 @@ const routeList: IrouteList[] = [
   {
     url: "/dashboard/home",
     component: DashboardHome,
+  },
+  {
+    url: "/dashboard/video",
+    component: DashboardVideo,
   },
 ];
 
@@ -180,13 +185,15 @@ const angelData: IangelCard[] = [
 const dashboardnavData = [
   {
     icon_active: "/home-active.svg",
-    icon: "",
+    icon: "/home.png",
     label: "Dashboard",
     url: "/dashboard/home",
   },
   {
     icon: "/star.png",
+    icon_active: "/star-active.png",
     label: "Messagerie",
+    url: "/dashboard/video",
   },
   {
     icon: "/star.png",
