@@ -4,7 +4,7 @@ import FadeAnimation from "../../animations/FadeAnimations";
 // import { useEffect } from "react";
 
 const LandingHero = (): JSX.Element => {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   // const { divRef } = TextAnimation();
 
   // useEffect(() => {}, [i18n.language]);
