@@ -14,25 +14,19 @@ const LandingHero = (): JSX.Element => {
       <div className="hero-content">
         <FadeAnimation direction="left">
           <button className="btn btn-top">
-            La solution à vos problèmes <span>Voir plus</span>
+            {t("hero.button_top")} <span>{t("hero.button_top2")}</span>
             <img src="/arrow_right.svg" alt="" />
           </button>
         </FadeAnimation>
         <FadeAnimation direction="bottom">
           <div className="title">
-            <h1
-              // key={t("hero.title")}
-              dangerouslySetInnerHTML={{ __html: t("hero.title") }}
-            />
+            <h1 dangerouslySetInnerHTML={{ __html: t("hero.title") }} />
           </div>
         </FadeAnimation>
         <FadeAnimation direction="right">
-          <p>
-            Nos anges gardiens sont là pour vous aider dans le deuil, les tâches
-            ménagères, le soutien émotionnel et bien plus encore
-          </p>
+          <p>{t("hero.text")}</p>
         </FadeAnimation>
-        <button className="btn btn-bottom">Se connecter</button>
+        <button className="btn btn-bottom">{t("hero.button_bottom")}</button>
       </div>
     </section>
   );
