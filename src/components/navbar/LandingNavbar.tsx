@@ -3,11 +3,25 @@ import { navList } from "../../helpers/constants";
 import { useNav } from "../../hooks/useNav";
 import { Fragment } from "react/jsx-runtime";
 import { useNavigate } from "react-router-dom";
+import i18n from "i18next";
+import { useState } from "react";
 
 const LandingNavbar = (): JSX.Element => {
   const { openMenu } = useNav();
   const { t } = useTranslation();
   const navigate = useNavigate();
+
+  const [lang, setLang] = useState<string>("en");
+
+  const changelangue = () => {
+    if (lang === "fr") {
+      i18n.changeLanguage("en");
+      setLang("en");
+    } else {
+      i18n.changeLanguage("fr");
+      setLang("fr");
+    }
+  };
 
   return (
     <Fragment>
@@ -33,8 +47,13 @@ const LandingNavbar = (): JSX.Element => {
           <div className="nav-section2">
             <ul>
               <li>
-                <img src="/fr.svg" alt="" />
-                Fr
+                {lang === "fr" ? (
+                  <img src="/fr.svg" alt="" />
+                ) : (
+                  <img src="/en.png" alt="" />
+                )}
+                {lang}
+                <img src="/inverse.png" alt="" onClick={() => changelangue()} />
               </li>
               <li>
                 <a href="">{t("nav02.FAQ")}</a>
