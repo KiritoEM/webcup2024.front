@@ -97,7 +97,7 @@ const enTranslation = {
       text: "Legal",
       general: "Information générale",
       mention: "Mention légal",
-      condition: "Condition d'itulisation"
+      condition: "Condition d'itulisation",
     },
     contact: {
       text: "contact",
@@ -106,8 +106,22 @@ const enTranslation = {
       nothing: " ",
       facebook: "facebook",
       linkedin: "linkedin",
-      tweet: "twitter"
-    }
+      tweet: "twitter",
+    },
+  },
+  login: {
+    title: "Login to your account",
+  },
+  signup: {
+    title: "Create account",
+  },
+  auth: {
+    email: "Email",
+    password: "Password",
+    save_email: "Se souvenir de moi",
+    forgot_password: "Mot de passe oublié?",
+    name: "Name",
+    localisation: "Localisation",
   },
 };
 

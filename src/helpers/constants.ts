@@ -1,4 +1,7 @@
+import DashboardHome from "../pages/DashboardHome";
 import Landing from "../pages/Landing";
+import Login from "../pages/Login";
+import Signup from "../pages/Signup";
 import {
   IaboutCard,
   IangelCard,
@@ -30,6 +33,18 @@ const routeList: IrouteList[] = [
     url: "/",
     component: Landing,
   },
+  {
+    url: "/login",
+    component: Login,
+  },
+  {
+    url: "/signup",
+    component: Signup,
+  },
+  {
+    url: "/dashboard/home",
+    component: DashboardHome,
+  },
 ];
 
 const aboutData: IaboutCard[] = [
@@ -52,16 +67,17 @@ const aboutData: IaboutCard[] = [
     text: "about.deliver.text",
     subtitle: "about.deliver.subtitle",
     col_indice: "col-8",
-    id: "deliver"
+    id: "deliver",
   },
   {
     image: "/about-4.png",
     text: "about.message.text",
     subtitle: "about.message.subtitle",
     col_indice: "col-4",
-    id: "message"
+    id: "message",
   },
 ];
+
 
 const footerNav: IfooterNav[] = [
   {
@@ -162,4 +178,33 @@ const angelData: IangelCard[] = [
   },
 ];
 
-export { navList, routeList, aboutData, tarifData, angelData, footerNav };
+const dashboardnavData = [
+  {
+    icon_active: "/home-active.svg",
+    icon: "",
+    label: "Dashboard",
+    url: "/dashboard/home",
+  },
+  {
+    icon: "/star.png",
+    label: "Messagerie",
+  },
+  {
+    icon: "/star.png",
+    label: "Discuter avec notre IA",
+  },
+  {
+    icon: "/user.png",
+    label: "Liste des Anges",
+  },
+];
+
+export {
+  navList,
+  routeList,
+  aboutData,
+  tarifData,
+  angelData,
+  footerNav,
+  dashboardnavData,
+};

@@ -74,6 +74,16 @@ interface Ichats {
   content: string;
 }
 
+interface IauthHeader {
+  title: string;
+}
+
+interface IauthInput {
+  label: string;
+  placeholder: string;
+  name: string;
+}
+
 export type {
   INavList,
   navItem,
@@ -88,4 +98,6 @@ export type {
   IfooterNav,
   IchatProps,
   Ichats,
+  IauthHeader,
+  IauthInput
 };
