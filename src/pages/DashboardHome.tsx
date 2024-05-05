@@ -1,5 +1,6 @@
 import DashboardHeader from "../components/headers/DashboardHeader";
 import Dashboardlayout from "../components/layouts/Dashboardlayout";
+import DashboardFirst from "../components/sections/dashboard/DashboardFirst";
 
 const DashboardHome = (): JSX.Element => {
   return (
@@ -7,6 +8,7 @@ const DashboardHome = (): JSX.Element => {
       <Dashboardlayout>
         <div className="home-content">
           <DashboardHeader />
+          <DashboardFirst />
         </div>
       </Dashboardlayout>
     </section>
