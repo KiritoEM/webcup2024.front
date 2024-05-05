@@ -84,6 +84,11 @@ interface IauthInput {
   name: string;
 }
 
+interface Ianimation {
+  direction: string;
+  children: ReactNode;
+}
+
 export type {
   INavList,
   navItem,
@@ -100,4 +105,5 @@ export type {
   IfooterNav,
   IchatProps,
   Ichats,
+  Ianimation,
 };

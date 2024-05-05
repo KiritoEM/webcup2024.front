@@ -8,6 +8,9 @@ const enTranslation = {
     FAQ: "FAQ",
     button: "Log In",
   },
+  hero: {
+    title: "Dans l'obscurité, nous apportons la <span>lumière</span>",
+  },
   about: {
     title: "Tout ce dont vous avez <span>besoin</span>",
     soutien: {
