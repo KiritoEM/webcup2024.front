@@ -1,13 +1,22 @@
 import { useNavigate } from "react-router-dom";
 import { dashboardnavData } from "../../helpers/constants";
+import { useState } from "react";
 
 const DashboardNav = (): JSX.Element => {
   const navigate = useNavigate();
+
+  const [name] = useState(() => {
+    if (typeof window !== "undefined") {
+      const storedName = localStorage.getItem("name");
+      return storedName;
+    }
+    return "";
+  });
   return (
     <nav className="dashboard-nav">
       <div className="nav-container">
         <div className="logo">
-          <img src="/logo.png" alt="" />
+          <img src="/logo.webp" alt="" />
         </div>
         <div className="nav-items">
           <ul>
@@ -37,9 +46,9 @@ const DashboardNav = (): JSX.Element => {
           </p>
         </div>
         <div className="account">
-          <img src="/default-user.png" alt="" />
+          <img src="/default-user.webp" alt="" />
           <div className="user-info">
-            <h6>Junnot d 'Avis</h6>
+            <h6>{name ? name : "utilisateur"}</h6>
             <p>Paramètres</p>
           </div>
         </div>

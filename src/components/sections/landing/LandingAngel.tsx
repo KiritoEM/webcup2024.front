@@ -36,12 +36,12 @@ const LandingAngel = (): JSX.Element => {
           <div className="swiper-buttons">
             <FadeAnimation direction="right">
               <div className="left" onClick={() => prevSwiper()}>
-                <img src="/chevron-left.png" alt="" />
+                <img src="/chevron-left.webp" alt="" />
               </div>
             </FadeAnimation>
             <FadeAnimation direction="right">
               <div className="right" onClick={() => nextSwiper()}>
-                <img src="/chevron-right.png" alt="" />
+                <img src="/chevron-right.webp" alt="" />
               </div>
             </FadeAnimation>
           </div>

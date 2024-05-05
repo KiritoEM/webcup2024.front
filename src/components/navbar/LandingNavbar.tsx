@@ -40,7 +40,7 @@ const LandingNavbar = (): JSX.Element => {
 
           {/* logo */}
           <div className="logo">
-            <img src="/logo.png" alt="" />
+            <img src="/logo.webp" alt="" />
           </div>
 
           {/* section2 */}
@@ -50,10 +50,10 @@ const LandingNavbar = (): JSX.Element => {
                 {lang === "fr" ? (
                   <img src="/fr.svg" alt="" />
                 ) : (
-                  <img src="/en.png" alt="" />
+                  <img src="/en.webp" alt="" />
                 )}
                 {lang}
-                <img src="/inverse.png" alt="" onClick={() => changelangue()} />
+                <img src="/inverse.webp" alt="" onClick={() => changelangue()} />
               </li>
               <li>
                 <a href="">{t("nav02.FAQ")}</a>

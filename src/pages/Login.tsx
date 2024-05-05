@@ -14,11 +14,17 @@ const Login = (): JSX.Element => {
         onSubmit={(e: React.FormEvent<HTMLFormElement>) => login(e)}
       >
         <AuthHeader title="Se connecter" />
-        <AuthInput label="Email" name="email" placeholder="example@gmail.com" />
+        <AuthInput
+          label="Email"
+          name="email"
+          placeholder="example@gmail.com"
+          type="email"
+        />
         <AuthInput
           label="Mot de passe"
           name="password"
           placeholder="••••••••••"
+          type="password"
         />
         <div className="options">
           <div className="save">
@@ -27,7 +33,9 @@ const Login = (): JSX.Element => {
           <p className="forgot-password">Mot de passe oublié</p>
         </div>
         <div className="button">
-          <button className="btn">Se connecter</button>
+          <button className="btn" type="submit">
+            Se connecter
+          </button>
         </div>
         <p className="signup-link">
           Nouveau ici?

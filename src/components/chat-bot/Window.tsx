@@ -8,7 +8,7 @@ const Window = ({ action, chats, close }: IchatProps): JSX.Element => {
       <div className="chatbot-header">
         <div className="robot">
           <div className="avatar">
-            <img src="/robot.png" alt="" />
+            <img src="/robot.webp" alt="" />
           </div>
           <p>Metatron</p>
         </div>
@@ -21,7 +21,7 @@ const Window = ({ action, chats, close }: IchatProps): JSX.Element => {
             {chat.role === "bot" && (
               <div className="bot">
                 {/* <div className="avatar">
-                  <img src="/robot.png" alt="Bot Avatar" />
+                  <img src="/robot.webp" alt="Bot Avatar" />
                 </div> */}
                 <div className="text">
                   <p>{chat.content}</p>

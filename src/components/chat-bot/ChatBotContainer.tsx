@@ -9,7 +9,7 @@ const ChabotContainer = (): JSX.Element => {
   const [chats, setChats] = useState<Ichats[]>([
     {
       role: "bot",
-      content: "je suis un chat-bot pour vous aider",
+      content: "je suis Metatron  votre ange assistant",
     },
   ]);
 
@@ -18,7 +18,7 @@ const ChabotContainer = (): JSX.Element => {
   }
   const close = () => {
     setShow(false);
-  }
+  };
 
   const sendChat = async (e: any) => {
     e.preventDefault();
@@ -43,7 +43,6 @@ const ChabotContainer = (): JSX.Element => {
       ]);
       form["chat"].value = "";
     }
-    e.currentTarget.value = "";
   };
 
   return (
@@ -51,7 +50,7 @@ const ChabotContainer = (): JSX.Element => {
       <div className="chatbot__container">
         {show && <Window action={sendChat} chats={chats} close={close} />}
         <div className="bot-avatar" onClick={() => setShow(!show)}>
-          <img src="/robot.png" alt="" />
+          <img src="/bot.svg" alt="" />
         </div>
       </div>
     </div>

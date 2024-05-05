@@ -13,10 +13,15 @@ const LandingHero = (): JSX.Element => {
     <section className="landing__hero">
       <div className="hero-content">
         <FadeAnimation direction="left">
-          <button className="btn btn-top">
-            {t("hero.button_top")} <span>{t("hero.button_top2")}</span>
-            <img src="/arrow_right.svg" alt="" />
-          </button>
+          <a
+            href="https://bff.ecoindex.fr/redirect/?url=https://trimobe.madagascar.webcup.hodi.host"
+            target="_blank"
+          >
+            <img
+              src="https://bff.ecoindex.fr/badge/?theme=dark&url=https://trimobe.madagascar.webcup.hodi.host"
+              alt="Ecoindex Badge"
+            />
+          </a>
         </FadeAnimation>
         <FadeAnimation direction="bottom">
           <div className="title">
@@ -26,7 +31,10 @@ const LandingHero = (): JSX.Element => {
         <FadeAnimation direction="right">
           <p>{t("hero.text")}</p>
         </FadeAnimation>
-        <button className="btn btn-bottom">{t("hero.button_bottom")}</button>
+        <div className="input-group">
+          <input type="text" placeholder="Que voulez-vous?" />
+          <button>Envoyer</button>
+        </div>
       </div>
     </section>
   );

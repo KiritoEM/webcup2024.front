@@ -31,7 +31,7 @@ const LandingFooter = (): JSX.Element => {
       <div className="footer-footer">
         <hr />
         <div className="footer-footer-content">
-          <img src="/logo.png" alt="logo" className="logo" />
+          <img src="/logo.webp" alt="logo" className="logo" />
           <p>By Team Trimobe - 24h by Webcup 2024</p>
           <div className="icon-social">
             <a href="">

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useTranslation } from "react-i18next";
 import { aboutData } from "../../../helpers/constants";
 import AboutCard from "../../cards/AboutCard";

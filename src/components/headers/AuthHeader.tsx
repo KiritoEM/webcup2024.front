@@ -4,7 +4,7 @@ const AuthHeader = ({ title }: IauthHeader): JSX.Element => {
   return (
     <header className="auth-header">
       <div className="logo">
-        <img src="/logo.png" alt="" />
+        <img src="/logo.webp" alt="" />
       </div>
       <div className="title">
         <h2>{title}</h2>

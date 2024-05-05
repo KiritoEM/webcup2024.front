@@ -7,6 +7,8 @@
     flex-direction: column;
     gap: 25px;
     width: 325px;
+    height: 450px;
+
     h2 {
         color: $white02;
         font-size: 40px;
@@ -25,6 +27,7 @@
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        flex-grow: 1;
     }
 }
 

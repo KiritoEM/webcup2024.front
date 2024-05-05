@@ -82,6 +82,7 @@ interface IauthInput {
   label: string;
   placeholder: string;
   name: string;
+  type : string
 }
 
 interface Ianimation {
