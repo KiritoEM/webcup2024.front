@@ -15,7 +15,7 @@ const AboutCard = ({ image, text, subtitle, id }: IaboutCard): JSX.Element => {
         autoplay={true}
         loop={true}
         src={`${image}`}
-        style={{ width: "100%", height: "15rem", objectFit: "cover" }}
+        style={{ width: "100%", height: "16em", objectFit: "cover" }}
       />
       <div className="content">
         <h4>{t(subtitle)}</h4>

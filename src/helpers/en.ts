@@ -22,16 +22,16 @@ const frTranslation = {
       text: "Our team is available 24/7 to provide you with the support you need.",
     },
     solution: {
-      subtitle: "Tailored Solutions to Your Needs",
-      text: "Request unlimited designs and we will work on them one at a time until you are 100% satisfied.",
+      subtitle: "Solutions tailored to your needs",
+      text: "Discover tailored solutions with Divine Delivery. Angels ready to intervene instantly to meet your needs",
     },
     deliver: {
-      subtitle: "Express Delivery from Our Angels",
-      text: "We're more than pixel makers. We offer the expertise to guide early founders past common mistakes.",
+      subtitle: "Express Delivery from our Angels",
+      text: "Experience swift angelic deliveries with Divine Delivery. Our angels teleport to you in seconds, ready to assist",
     },
     message: {
-      subtitle: "Integrated Messaging Box",
-      text: "Forget intermediaries, you & your team will directly collaborate with your designer on Slack.",
+      subtitle: "An Integrated Messaging Box",
+      text: "Explore chat rooms to connect with others facing similar troubles. Find support and advice",
     },
   },
   tarif: {

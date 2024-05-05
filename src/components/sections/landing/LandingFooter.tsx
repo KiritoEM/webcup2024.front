@@ -13,7 +13,7 @@ const LandingFooter = (): JSX.Element => {
       <FadeAnimation direction="bottom">
         <div className="footer-button">
           <button className="btn-dark"> Se connecter </button>
-          <button className="btn-light"> Se connecter </button>
+          <button className="btn-light"> Creer un compte </button>
         </div>
       </FadeAnimation>
       <div className="footer-nav">

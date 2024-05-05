@@ -18,20 +18,20 @@ const frTranslation = {
   about: {
     title: "Tout ce dont vous avez <span>besoin</span>",
     soutien: {
-      subtitle: "Support 24/7",
+      subtitle: "Soutien 24/7",
       text: "Notre équipe est disponible 24/7 pour vous offrir le soutien dont vous avez besoin.",
     },
     solution: {
-      subtitle: "Solutions adaptées à vos besoins",
-      text: "Demandez des designs illimités et nous travaillerons sur chacun d'eux un par un jusqu'à ce que vous soyez 100% satisfait.",
+      subtitle: "Des solutions adaptées à vos besoins",
+      text: "Découvrez nos solutions sur mesure avec Divine Delivery. Des anges gardiens prêts à intervenir instantanément pour répondre à vos besoins",
     },
     deliver: {
       subtitle: "Livraison express de nos Anges",
-      text: "Nous sommes plus que des créateurs de pixels. Nous offrons l'expertise pour guider les jeunes fondateurs à travers les erreurs courantes.",
+      text: "Profitez de livraisons express de nos anges avec Divine Delivery. Nos anges se téléportent en quelques secondes, prêts à vous assister",
     },
     message: {
-      subtitle: "Boîte de messagerie intégrée",
-      text: "Oubliez les intermédiaires, vous et votre équipe collaborerez directement avec votre designer sur Slack.",
+      subtitle: "Une boite de messagerie intégrée",
+      text: "Découvrez nos salles de discussion pour échanger avec d'autres. Trouvez soutien et conseils",
     },
   },
   tarif: {

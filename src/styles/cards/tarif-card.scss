@@ -8,6 +8,11 @@
     backdrop-filter: blur(10px);
     height: 500px;
     padding: 25px 23px 31px;
+    transition: all 0.3s;
+    &:hover {
+        border: 1px solid #3D3C3C;
+        background: linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%);
+    }
 
     .details {
         display: flex;
@@ -57,6 +62,11 @@
         padding: 14px 32px;
         color: #fff;
         font-size: 16px !important;
+        font-family: "GeneralSans-Semibold";
+        &:hover {
+            background-color: $white02;
+            color: $black01;
+        }
     }
 }
 
@@ -65,14 +75,25 @@
     background: linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%);
 
     .btn {
-        font-family: "GeneralSans-Medium";
+        font-family: "GeneralSans-Semibold";
         background-color: $white02;
         color: $black01;
+        &:hover {
+            background-color: $yellow01;
+            color: $black01;
+        }
     }
 }
 
 #premium {
     h2 {
         color: $yellow01;
+    }
+    .btn {
+        font-family: "GeneralSans-Semibold";
+        &:hover {
+            background-color: $yellow01;
+            color: $black01;
+        }
     }
 }

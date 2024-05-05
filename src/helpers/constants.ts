@@ -140,7 +140,7 @@ const tarifData: ItarifCard[] = [
     id: "pro",
   },
   {
-    price: 50,
+    price: 60,
     subtitle: "tarif.premium.subtitle",
     text: "tarif.premium.text",
     engagement: "tarif.premium.engagement",

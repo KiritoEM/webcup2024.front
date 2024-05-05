@@ -64,7 +64,12 @@
                             background-color: #fff;
                             font-weight: 500;
                             border-radius: $radius;
-                            font-family: "GeneralSans-Medium";
+                            font-family: "GeneralSans-SemiBold";
+                            transition: all 0.3s;
+                            &:hover {
+                                background-color: $yellow01;
+                                color: $black01;
+                            }
                         }
                     }
                 }
